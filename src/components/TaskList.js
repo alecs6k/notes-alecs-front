@@ -43,9 +43,9 @@ export default function TaskList() {
               display: "flex",
               justifyContent: "space-between"
           }}>
-            <div style={{color: "white"}}>
-                <Typography>{task.title}</Typography>
-                <Typography>{task.description}</Typography>
+            <div>
+                <Typography color="#ECB365" >{task.title}</Typography>
+                <Typography color="white" >{task.description}</Typography>
             </div>
 
             <div>
